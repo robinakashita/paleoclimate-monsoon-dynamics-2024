@@ -122,15 +122,15 @@ Evaluating them against real proxy archives is crucial for improving future clim
 
 TraCE vs. GPCP Seasonal Precipitation
 
-(insert figure here)
+![TraCE vs. GPCP Seasonal Precipitation](figures/SimulationVsObservation.png)
 
 TraCE vs. iTraCE Difference Map (DJF)
 
-(insert figure here)
+![TraCE vs. iTraCE Difference Map (DJF)](figures/Comp.Diff_Simulations.png)
 
 δ¹⁸O Speleothem Comparison: AB-12 vs. iTraCE vs. TraCE
 
-(insert figure here)
+![δ¹⁸O Speleothem Comparison: AB-12 vs. iTraCE vs. TraCE](figures/SpeleothemVsSImulations.png)
 
 ---
 
