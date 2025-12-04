@@ -67,3 +67,85 @@ TraCE-21ka and iTraCE-21ka simulate deglacial climate evolution but differ in:
 Evaluating them against real proxy archives is crucial for improving future climate projections.
 
 ---
+
+## 3. Methodology
+
+### Climate Model Preprocessing
+
+- Loaded TraCE and iTraCE NetCDF files with xarray
+
+- Computed seasonal and annual climatologies
+
+- Extracted Last Glacial Maximum (19–23 ka) and Heinrich Stadial 1 windows
+
+- Created difference maps and anomaly fields
+
+### Proxy Record Comparison
+
+- Processed AB-12 and ABC-1 δ¹⁸O speleothem data
+
+- Aligned proxy ages with model years using age-depth models
+
+### Visualization Tools
+
+- matplotlib + cartopy for spatial maps
+
+- Line plots for time series comparisons
+
+- Difference maps for highlighting model biases
+
+---
+
+## 4. Key Results
+
+### 1. TraCE-21ka vs. GPCP
+
+- TraCE captures large-scale rainfall patterns but underestimates precipitation over the southwest Indian Ocean.
+
+### 2. TraCE vs. iTraCE
+
+- iTraCE produces weaker Southern Indian Ocean monsoon circulation.
+
+- Seasonal precipitation discrepancies are largest during austral summer (DJF).
+
+### 3. TraCE/iTraCE vs. Speleothems
+
+- TraCE aligns reasonably well with δ¹⁸O shifts during Heinrich Stadial 1.
+
+- iTraCE fails to capture proxy-observed rainfall patterns near Madagascar.
+
+- Proxy signals suggest stronger monsoon intensification than iTraCE simulates.
+
+---
+
+## 5. Figures
+
+TraCE vs. GPCP Seasonal Precipitation
+
+(insert figure here)
+
+TraCE vs. iTraCE Difference Map (DJF)
+
+(insert figure here)
+
+δ¹⁸O Speleothem Comparison: AB-12 vs. iTraCE vs. TraCE
+
+(insert figure here)
+
+---
+
+## 6. Future Work
+
+- Isolate iTraCE CCSM3 single-forcing simulations (ice sheets, GHGs, meltwater, orbital forcing)
+
+- Directly compare TraCE and iTraCE single-forcing outputs to assess which forcing drives the discrepancies
+
+- Expand proxy network beyond Madagascar
+
+- Evaluate moisture transport pathways using water-isotope-enabled models (e.g., IsoGSM, iCESM)
+
+---
+
+## 7. Acknowledgements
+
+This research was conducted as part of the MIT Summer Research Program (MSRP 2024) in the McGee Lab, MIT Department of Earth, Atmospheric, and Planetary Sciences. I would like to thank my mentors, Dr. David McGee and Benjamin Tiger, for their guidance and support throughout this project.
