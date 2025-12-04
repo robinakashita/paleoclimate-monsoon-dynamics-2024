@@ -148,4 +148,4 @@ TraCE vs. iTraCE Difference Map (DJF)
 
 ## 7. Acknowledgements
 
-This research was conducted as part of the MIT Summer Research Program (MSRP 2024) in the McGee Laboratory, MIT Department of Earth, Atmospheric, and Planetary Sciences. I would like to thank my mentors, Dr. David McGee and Benjamin Tiger, for their guidance and support throughout this project. I would also like to thank the MIT Summer Research Program for the opportunity to participate in this research project and for supporting my growth as a researcher.
+This research was conducted as part of the MIT Summer Research Program (MSRP 2024) in the McGee Laboratory, MIT Department of Earth, Atmospheric, and Planetary Sciences. I would like to thank my mentors, Dr. David McGee and Benjamin Tiger, for their guidance and support throughout this project. I would also like to thank the MIT Summer Research Program and the MIT Office of Graduate Education for the opportunity to participate in this research project and for supporting my growth as a researcher.
